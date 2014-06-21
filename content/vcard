@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Crowther;Ian;;Mr.;
+FN:Mr. Ian Crowther 
+ORG:http://www.iancrowther.co.uk
+ADR;WORK:;;;London;;;United Kingdon
+URL;WORK:http://www.yuideveloper.co.uk
+EMAIL;PREF;INTERNET:iancrowther@yuideveloper.co.uk
+REV:20091002T21:56:47Z
+END:VCARD

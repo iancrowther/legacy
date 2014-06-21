@@ -1,0 +1,69 @@
+body, html { 	background-color: #141414; }
+
+h1 { color: #86BDBD; font-size: 0em; } 
+h2 { color: #EABB60; font-weight: bold; font-size:1.1em; padding-bottom: 20px;}
+h3 { color: #a0d6d6; font-size: 1em;  margin-bottom: 5px; }
+.reset { clear: both;}
+.content { padding-bottom: 20px; }
+
+a:link, a:visited, a:hover, a:active, a:focus { outline: 0; text-decoration: none; font-weight: bold; }
+a:link, a:visited { color: #59A999; }
+a:hover, a:active, a:focus { color: #C8C8C8; }
+
+#header, #footer { height: 100px; width: 960px; margin: 0 auto; text-align: left; position: relative; }
+#header { border-bottom: 1px solid #575757; } #footer { border-top: 1px solid #575757; }
+#header ul, #footer ul { display: block; }
+#header li, #footer li { list-style-type: none; display: inline; padding-left: 30px; }
+#header label { padding-left: 10px; }
+.header-left, .header-right, .footer-left, .footer-right  { position: absolute; color: #575757; }
+.header-left, .header-right { top: 50px; font-size: 1em; word-spacing: 3px; }
+.footer-left, .footer-right  { bottom: 50px; font-size: 1em; word-spacing: 1px; }
+.header-right, .footer-right { right: 0px; }
+
+#main { color: #59A999; width: 960px; height: 550px; margin: 0 auto; overflow: hidden; position: relative; text-align: left; }
+.index-left { margin: 30px auto; width: 650px; position: absolute; top: 0px; left: 0px; }
+.index-left-header { padding-bottom: 30px; border-bottom: 1px solid #575757; }
+.intro { font-size: 1.8em; line-height: 160%; font-weight: 400; letter-spacing:0px; word-spacing:-6px; }
+.info { margin-top: 20px; font-size: 1em; line-height: 200%; font-weight: 400; letter-spacing:0px; word-spacing:2px; color: #575757; }
+.intro .highlight { color: #a0d6d6; }
+.info .highlight { color: #59A999; font-size: 1.1em; }
+
+.carousel-container { margin: 30px 0; overflow: hidden; width: 650px; color: #84A39D; }
+.carousel-viewport { width: 650px; overflow: hidden; position: relative; }
+.carousel-list { width: 1000%; overflow: hidden; padding: 0; margin: 0; }
+.carousel-list li { float: left; list-style-type: none; }
+.carousel-item { width: 650px; height: 100px; position: relative; }   
+.carousel-item-detail { position: absolute; top: 0px; left: 0px; height: 150px; }
+.carousel-item-name { font-size: 1em; color: #a0d6d6; margin-bottom: 5px; }
+.carousel-item-company { font-size: 0.7em;  }
+.carousel-item-testimonial { position: absolute; top: 0px; right: 0px; height: 200px; width: 525px; }
+.carousel-item-testimonial-text { font-style: italic; }
+.carousel-left-button, .carousel-right-button { margin: 5px; width: 32px; height: 32px; float: right; }
+.carousel-left-button { background-image: url('../images/prev.png'); }
+.carousel-right-button { background-image: url('../images/next.png'); }
+
+.index-right { width: 260px; position: absolute; top: 30px; right: 0px; color: #84A39D; text-align: left; }
+.index-right img { margin-bottom: 10px; }
+.index-right p { font-size: 0.8em; color: #84A39D; }
+
+.contact-left, .about-left { margin: 30px auto; width: 260px; position: absolute; top: 0px; left: 0px; }
+.contact-left  .info, .about-left .info { margin: 0px; }
+.contact-center, .thankyou-center, .about-center { margin: 30px auto; width: 400; position: absolute; top: 0px; left: 260px; right: 260px; }
+.contact-right { margin: 30px auto; width: 260px; position: absolute; top: 0px; right: 0px; }
+
+#contact-form { /*font-size: 1em;*/ }
+.form-input { margin: 10px 0; }
+.form-input label { display: block; margin-bottom: 10px; }
+.form-input-capatcha { height: 50px; }
+.form-input-capatcha-input label { display: block; margin-bottom: 10px; }
+.form-input-capatcha-input { float: left; height: 50px; }
+.form-input-capatcha-image { float: right; height: 50px; }
+
+.about-center { left:360px; margin:30px auto; position:absolute; right:260px; top:0; width: 500px; }
+.about-center ul { padding: 10px 30px; }
+.about-center li { list-style-type: disc; padding: 2px; }
+
+.work-center { left:50px; margin:30px auto; position:absolute; right:50px; top:0; }
+.work-center img { border:2px solid #575757; height:167px; width:264px; }
+.work-center ul { margin: 20px 0; }
+.work-center li { display: inline; list-style-type: none; padding-right: 10px; }
