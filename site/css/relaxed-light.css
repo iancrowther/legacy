@@ -1,0 +1,49 @@
+/* ==== RELAXED LAYOUT ===*/
+
+#outer-wrap {font: 100% Arial, Helvetica, Verdana, Arial, sans-serif;}
+#content, #related {float:none;}
+#related {width: 100%; margin-left: 0; margin-top: 15px; position:static; left:0;}
+
+#related img {float:left; margin-right:15px}
+#switcher p {padding-top:0; margin-top:1px}
+
+#navigation {width:25%;}
+#navigation ul {margin-right:13px}
+#content-wrapper {margin: 0 32px 0 25%;}
+
+/*======== LIGHT COLOURS AND CUSTOMISATIONS =======*/
+
+  /*= Colours and fluffyness for layout =*/
+body, #outer-wrap {background: #fff; color:#000}
+li.skipnav, #alt, #printlinks {display: none;}
+#header, #related {background: #f0f0f0}
+#content {background:#fffeff;}
+#header, #related, #content {border: 1px solid #eed4e1}
+#footer {border-top: 1px solid #eed4e1}
+
+  /*= Colours and fluffyness for base elements =*/
+.dot {color: #cc0066}
+strong {color: #000;}
+hr {background-color:#eed4e1; color:#eed4e1;}
+ul li, ul ul li, ul ul ul li {background: url(../images/default/bullet.gif) no-repeat 0 0.5em;}
+
+  /*= Colours and fluffyness for links =*/
+a {color: #cc0066;}
+a:link {color: #cc0066;}
+a:visited {color: #000;}
+a:active {color: #000;}
+a:active, a:focus, a:hover {color: #cc0066;}
+
+    /*= Skip Links =*/
+a.rm:active, a.rm:focus {background-color: #fff; color: #01266B; border: 8px #FE5800 solid;}
+
+  /*= Colours and fluffyness for the header elements */ 
+#infinitefocus-logo {background: url(../images/default/ifnet_logo_beta.png)}
+#switcher {border: 1px solid #ccc; background: url(../images/default/switcher-bg.gif);}
+#infinitefocus-logo { border:1px solid #F0F0F0}
+
+  /*= Colours and fluffyness for the navigation */
+#navigation ul {background: #f0f0f0; border: 1px solid #eed4e1}
+#navigation li a, #navigation li strong {color:#000; border-bottom: 1px solid #d5d5d5;}
+#navigation li strong {background: url(../images/default/dot.gif) no-repeat 0.05em 58%}
+#navigation li a:hover, #navigation li a:active, #navigation li a:focus {background: url(../images/default/dot-hover.gif) no-repeat 0.05em 58%}

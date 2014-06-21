@@ -1,0 +1,99 @@
+/*DARK COLOUR COLOURS AND CUSTOMISATIONS*/
+
+  /*= Colours and fluffyness for layout =*/
+body, #outer-wrap {color: #fff; background: #000;}
+li.skipnav, #alt, #printlinks {display: none;}
+#header, #content, #navigation ul, #related {background: #313131}
+#header, #navigation ul, #related, #content {border: 1px solid #000}
+#footer {border-top: 1px solid #fff}
+
+  /*= Colours and fluffyness for base elements =*/
+.dot {color: #cc0066}
+strong {color: #fff;}
+hr {background-color:#000; color:#000;}
+ul li, ul ul li, ul ul ul li {background: url(../images/dark/bullet.gif) no-repeat 0 0.5em;}
+
+  /*= Colours and fluffyness for links =*/
+a {color: #ff6699;}
+a:link {color: #ff6699;}
+a:visited {color: #fff;}
+a:active {color: #fff;}
+a:active, a:focus, a:hover {color: #ff6699;}
+
+  /*= Skip Links =*/
+a.rm:active, a.rm:focus {background-color: #fff; color: #01266B; border: 8px #FE5800 solid;}
+
+  /*= Colours and fluffyness for the header */ 
+#infinitefocus-logo {background: url(../images/dark/ifnet_logo_beta.png)}
+#switcher {border: 1px solid #000; background: url(../images/dark/switcher-bg.gif);}
+#infinitefocus-logo { border:1px solid #313131}
+
+  /*= Colours and fluffyness for the navigation */
+#navigation li a, #navigation li strong {color:#fff; border-bottom: 1px solid #fff;}
+#navigation li strong {background: url(../images/dark/dot.gif) no-repeat 0.05em 58%}
+#navigation li a:hover, #navigation li a:active, #navigation li a:focus {background: url(../images/dark/dot-hover.gif) no-repeat 0.05em 58%}
+
+/* imageflow */
+img { 
+	position:absolute; 
+	top:0px;
+	border:none;
+}
+h1 {
+	text-align:center;
+}
+a{
+	color:#000;
+}
+a:hover{
+	color:#cc0066;
+}
+.clear{
+	clear:both;
+}
+#images{
+	visibility:hidden;
+}
+#loading{
+	margin-top:0px;
+	text-align:center;
+	width:100%;
+}
+#loading img{
+	margin-top:0px;
+	position:relative; 
+}
+
+#captions{
+	font-weight:bold;
+	position:relative; 
+	text-align:center;
+	z-index:10000;
+}
+#description{
+	font-weight:bold;
+	position:relative; 
+	text-align:left;
+	z-index:10004;
+	
+}
+#scrollbar{
+	visibility:hidden;
+	position:relative; 
+	border-bottom:1px solid #cc0066;
+	z-index:10001;
+}
+#slider{
+	position:absolute;
+	margin-top:-7px;
+	margin-left:0px;
+	z-index:10002;
+	background-image:url(slider.png);
+	background-repeat:no-repeat;
+	width:14px;
+	height:14px;	
+}
+#imageflow{
+	height: 200px;
+}
+

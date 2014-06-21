@@ -1,0 +1,14 @@
+/*=========== Styles for IE6=======*/
+
+/*==========Navigation ===========*/
+#navigation li a, #navigation li strong {width: 100%;}
+
+/*==========Layout ===========*/
+#header {height:138px}
+#content-wrapper {margin-left: 205px; height:1%}
+#content {width:auto;}
+#related  {padding:14px}
+
+/* == Relaxed layout ==*/
+#content-wrapper {margin-right:0}
+#related {margin-left: 0; position:static; height:1%; width:auto;}
