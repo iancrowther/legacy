@@ -1,0 +1,29 @@
+body, html { margin: 0; background-color: #0A0A0A; }
+
+.contentlink:link { color: #84F59B; font-size: 1em; text-decoration: none; }
+.contentlink:visited { color: #84F59B; font-size: 1em; text-decoration: none; }
+.contentlink:active { background-color: #84F6E6; color: #000; font-size: 1em; text-decoration: none; }
+.contentlink:hover { background-color: #84F6E6; color: #000; font-size: 1em; text-decoration: none; }
+.contentlink:focus { outline: 0; }
+
+#header { background:#fff none repeat scroll 0 0; border-top:7px solid #0A0A0A; }
+#main { background-color: #0A0A0A; padding: 40px 0; }
+#main .spacer { padding: 10px; }
+
+#username, #playlists, #playlist { width: 500px; margin: 0 auto; background-color: #84F6E6; } /*#username div { font-size: 36px; font-weight: bold; color: #0A0A0A; }*/
+#username .usertitle { margin-top: 20px; color: #0A0A0A; font: 24px "Trebuchet MS",Tahoma,Arial; font-weight: bold; display: block;}
+#username .userinput { width: 260px; padding: 10px; margin: 10px; color: #0A0A0A; font: 16px "Trebuchet MS",Tahoma,Arial; } 
+#username .usersubmit { border: 2px solid #0A0A0A; background-color:#B4D6DF; color: #0A0A0A; font: 12px "Trebuchet MS",Tahoma,Arial; cursor:pointer; height: 44px; width: 44px; }
+
+#playlists { display:none; }
+#playlists #playlisttitletext { }
+#playlists .contentlink:link { color: #0A0A0A; font-size: 1em; text-decoration: none; }
+#playlists .contentlink:visited { color: #0A0A0A; font-size: 1em; text-decoration: none; }
+#playlists .contentlink:active { background-color: #0A0A0A; color: #84F6E6; font-size: 1em; text-decoration: none; padding: 1px; }
+#playlists .contentlink:hover { background-color: #0A0A0A; color: #84F6E6; font-size: 1em; text-decoration: none; padding: 1px; }
+#playlists .contentlink:focus { outline: 0; }
+
+#playlist { display:none; }
+
+#footer { background-color: #5BA86A; border-top:2px solid #F5F5F5; border-bottom:2px solid #0A0A0A; padding: 30px 0 10px 0; }
+#footer p { padding: 10px 0; color: #70CF83; font: 12px "Trebuchet MS",Tahoma,Arial; }

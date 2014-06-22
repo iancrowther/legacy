@@ -1,0 +1,26 @@
+<!--<script type="text/javascript">
+    //var y = <%= ViewData["Jplaylists"]; %>;
+ 
+    //new Tubexchange({ container: 'Tubexchange', data: y });
+</script>
+
+<%-- <% foreach (Google.YouTube.Playlist p in playlists.Entries) 
+   { %>
+       
+       <%= Html.ActionLink(p.Title, "list", new { b = p.Id })%>
+   <% } %> --%>
+   
+    var y = "<%= ViewData['Jplaylists']; %>";
+    
+    
+    
+    <% Google.GData.Client.Feed<Google.YouTube.Playlist> playlists = (Google.GData.Client.Feed<Google.YouTube.Playlist>)ViewData["playlists"]; %>
+<% var x = ViewData["Jplaylists"]; %>
+<div id="Tubexchange"></div>
+<div id="fuckyou"><%= %></div>
+<script type="text/javascript">
+    alert('yo1');
+    var objList = <%= ViewData["Jplaylists"]; %>;
+    
+    <% Google.GData.Client.Feed<Google.YouTube.Playlist> playlists = (Google.GData.Client.Feed<Google.YouTube.Playlist>)ViewData["playlists"]; %>
+<% var x = ViewData["Jplaylists"]; %>
