@@ -1,0 +1,197 @@
+
+.view {
+	min-height: 60.000em;
+}
+
+#top {
+	position: fixed;
+	top: 1.000em;
+	left: 1.000em;
+
+	a {
+		color: @gray;
+		font-size: 2.000em;
+	}
+	a:hover {
+		color: @gray;
+		text-decoration: none;
+	}
+}
+
+.down-container {
+	a {
+		color: @gray;
+		display: block;
+		font-size: 2.000em;
+		margin: 0 auto;
+		width: 1.000em;
+	}
+	a:hover {
+		color: @blue;
+		text-decoration: none;
+	}
+}
+
+#contact-container {
+	background-color: @black;
+	color: @white;
+	// padding-top: 6.000em;
+	padding-top: 22.000em;
+
+	legend {
+		border-bottom: 0;
+		color: @white;
+		margin: 0;
+	}
+
+	ul {
+		margin-bottom: 0;
+		list-style: none;
+		padding: 2.000em 0;
+
+		li {
+			display: block;
+			padding: 1.000em 0;
+			position: relative;
+
+			a {
+				color: @white;
+			}
+			a:hover {
+				color: @blue;
+				text-decoration: none;
+			}
+		}
+	}
+
+	button[type="submit"] {
+		float: right;
+		background-color: @black;
+		border-color: @white;
+		border-radius: 0;
+	}
+	button[type="submit"]:hover {
+		color: @blue;
+		border-color: @blue;
+	}
+}
+
+#services-container {
+	background: url('../img/bg-paper.jpg') center center;
+	padding-top: 1.00em;
+	color: @gray-darker;
+
+	article {
+		margin-bottom: 1em;
+
+		p {
+			font-size: 1.500em;
+			line-height: 1.750em;
+		}
+		
+		ul {
+			padding-left: 3.000em;
+		}
+	}
+
+}
+
+#about-container {
+	background: url('../img/bg-bubbles.jpg') center center;
+	padding-top: 10.000em;
+
+	article {
+		margin-bottom: 2.000em;
+
+		h2 {
+			color: @blue;
+		}
+
+		p {
+			font-size: 1.500em;
+			line-height: 1.750em;
+		}
+	}
+
+	.down-container {
+		padding-top: 3.000em;
+	}
+}
+
+#hero-container {
+	background: url('../img/bg-wood.jpg') center -30.000em;
+	text-align: center;
+
+	#hero-content {
+		padding-top: 20.000em;
+		
+		h1 {
+			color: @white;
+		}
+
+		h3 {
+			color: @blue;
+			margin-top: 4.000em;
+		}	
+	}
+
+	.down-container {
+		padding-top: 22.000em;
+	}
+}
+
+#home-container {
+
+	#logo-container{
+		padding-top: 15.000em;
+		
+		#logo {	
+			background-color: @gray-light;
+			color: @white;
+			
+			h1 {
+				margin: 0.75em 0;
+				font-size: 5em;
+
+				span {
+					margin-left: 0.650em;
+				}
+
+				span span {
+					font-family: "Aaargh";
+					font-size: 0.8em;
+					letter-spacing: 0.25em;
+				}
+			} 
+		}
+	}
+
+	#nav-container {
+		padding-top: 10.000em;
+
+		ul {
+			margin-bottom: 0;
+			padding-left: 0;
+			list-style: none;
+
+			li {
+				display: block;
+				font-size: 3.000em;
+				position: relative;
+				text-align: center;
+
+				a {
+					color: @gray-light;
+				}
+				a:hover {
+					color: @blue;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.down-container {
+		padding-top: 10.000em;
+	}
+}

@@ -1,0 +1,679 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*.hidden {
+  display: none;
+}
+*/
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  font-family: UbuntuLight;
+}
+
+h1 {
+  margin: 0.5em 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+#header-container {
+	background: #fefefe;
+  color: #5A5959;
+  height: 400px;
+  position: relative;
+  z-index:1;
+}
+#header-container:after {
+  content: " ";
+  display:block;
+  position: relative;
+  bottom:-322px;
+  height:15px;
+  background: linear-gradient(-45deg, transparent 75%, #fefefe 75%) 0 0, linear-gradient( 45deg, transparent 75%, #fefefe 75%) 0 0;
+  background-size: 15px 15px, 15px 15px;
+}
+#header-container.fixed {
+  position:fixed;
+  height: 45px;
+  width: 100%;
+}
+#header-container.fixed:after {
+  bottom:-45px;
+}
+#header-container header {
+  text-align: center;
+  position: relative;
+  top:50px;
+}
+#header-container header h1 span:first-child {
+  font-size: 1.000em;
+  line-height: 1.000em;
+}
+#header-container header h1 span:last-child {
+  color: #5f5f5f;
+  letter-spacing: 0.350em;
+  font-size: 0.750em;
+}
+#header-container footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+nav li:not(:last-child):after {
+	color: #5f5f5f;
+	content: "|";
+}
+nav a {
+  color: #5f5f5f;
+  display: inline-block;
+  padding: 0 0.625em 0 0.313em;
+  text-decoration: none;
+}
+
+/*nav a:hover, nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}*/
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+#main-container {
+	height: 480px;
+  background: url(../img/bg1.jpg) #0f66a2 no-repeat fixed;
+  /*background-color: #0f66a2;
+	background-size: 8px 8px;
+	background-position:
+		0 0, 1px 20.75px,
+		12px 28px, 21px 24.75px,
+		20px 10px, 9px 23px,
+		16px 13.75px, 5px 19px;
+	background-image:
+	linear-gradient(335deg, #e5e5e5 3px, transparent 3px), linear-gradient(155deg, #e5e5e5 3px, transparent 3px),
+	linear-gradient(335deg, #e5e5e5 3px, transparent 3px), linear-gradient(155deg, #e5e5e5 3px, transparent 3px),
+	linear-gradient(335deg, #e5e5e5 2px, transparent 2px), linear-gradient(155deg, #e5e5e5 2px, transparent 2px),
+	linear-gradient(335deg, #e5e5e5 2px, transparent 2px), linear-gradient(155deg, #e5e5e5 2px, transparent 2px);*/
+}
+#main-container.fixed {
+  padding-top: 415px;
+}
+.main header {
+  padding: 8.000em 0;
+  text-align: center;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+}
+.main header h1 {
+	color: white;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #006FBD;
+  font-size: 2.200em;
+}
+.main header p {
+  font-family: 'Aaargh';
+  color: #5ab2f0;
+}
+
+#about-container {
+  height: 690px;
+  padding: 2em 0;
+  background-color: #f6f6f6;
+  background-size: 8px 8px;
+  background-position:
+    0 0, 1px 20.75px,
+    12px 28px, 21px 24.75px,
+    20px 10px, 9px 23px,
+    16px 13.75px, 5px 19px;
+  background-image:
+  linear-gradient(335deg, #e5e5e5 3px, transparent 3px), linear-gradient(155deg, #e5e5e5 3px, transparent 3px),
+  linear-gradient(335deg, #e5e5e5 3px, transparent 3px), linear-gradient(155deg, #e5e5e5 3px, transparent 3px),
+  linear-gradient(335deg, #e5e5e5 2px, transparent 2px), linear-gradient(155deg, #e5e5e5 2px, transparent 2px),
+  linear-gradient(335deg, #e5e5e5 2px, transparent 2px), linear-gradient(155deg, #e5e5e5 2px, transparent 2px);
+}
+.about {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 10%;
+}
+.about article {
+  margin-bottom: 2em;
+  position: relative; 
+}
+.about.banner article div{
+  position: relative;
+  padding-top: 5px;
+}
+.about.banner article div:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -35px;
+  top: 30px;
+  border-width: 15px 11px;
+  border-style: solid;
+  border-color: #999 transparent #999 #999;
+}
+.about.banner article div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -25px;
+  top: 100%;
+  border-width: 3px 6px;
+  border-style: solid;
+  border-color: #666 transparent transparent #666;
+}
+.about.banner article div h2 {
+  position: relative;
+  width: 82%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 6px 30px 6px 60px;
+  margin: 10px 10px 10px -25px;
+  color: #555;
+  background-color: #999;
+  text-shadow: 0px 1px 2px #bbb;
+  -webkit-box-shadow: 0px 2px 4px #888;
+  -moz-box-shadow: 0px 2px 4px #888;
+  box-shadow: 0px 2px 4px #888;
+}
+.about.banner article div h2:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 14px;
+  border-width: 15px 11px;
+  border-style: solid;
+  border-color: #999 #999 #999 transparent;
+}
+.about.banner article div h2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  top: 100%;
+  border-width: 3px 6px;
+  border-style: solid;
+  border-color: #666 #666 transparent transparent;
+}
+.about.banner article p {
+  padding-bottom: 1em;
+  clear: both;
+}
+
+.about.simple article h3 {
+  text-align: center;
+  margin: 0;
+  padding-top: 1em;
+  font-size: 1em;
+}
+.about.simple article h3:after, .about.simple article h3:before {
+  content: " - "
+}
+.about.simple p {
+  padding-bottom: 1em;
+}
+
+.about.arrow article header h2 {
+  background-color: #fff;
+  box-shadow: 0 0.313em 0 #999;
+  text-align:center;
+  font-size: 1em;
+  position: relative;
+  margin:0;
+  padding: 0.5em;
+}
+.about.arrow article header h2:before {
+  content:"";
+  position: absolute;
+  bottom: -0.938em;
+  left: 0;
+  width:0;
+  height:0;
+  border-left: 8.000em solid transparent;
+  border-right: 8.000em solid transparent;
+  border-top: 0.625em solid #999;
+}
+.about.arrow article header h2:after {
+  content:"";
+  position: absolute;
+  bottom: -0.625em;
+  left: 0;
+  width:0;
+  height:0;
+  /*border-left: 3.125em solid transparent;*/
+  border-left: 8.000em solid transparent;
+  border-right: 8.000em solid transparent;
+  border-top: 0.625em solid #fff;
+}
+.about.arrow article section {
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 1em;
+}
+.about.arrow article p {
+  padding: 0;
+}
+
+
+#services-container {
+  height: 850px;
+  background-color: #fff;
+  /*background: url(../img/n.jpg) #0f66a2 no-repeat 0 40% fixed;*/
+}
+.services article:not(:first-of-type) {
+  position:relative;
+  overflow:hidden; 
+  border-top:1px solid #ddd;
+  color: #999;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.09);
+}
+.services article:before {
+  content: ""; 
+  position:absolute; 
+  top: -0.938em; 
+  height: 0.625em;
+  width:98%;
+  left: 1%;
+  border-radius: 6.250em / 0.313em; 
+  box-shadow:0 0 1.125em rgba(0,0,0,0.5);
+}
+.services article header {
+  /*border: 1px solid black;*/
+  position: relative;
+  padding: 2em 1em 0.25em 1em;
+}
+.services article header .services-icon-container {  
+    border-radius:50%; 
+    height: 60px; 
+    width: 60px;
+    border: solid 1px #999;  
+    position: relative;  
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}  
+.services article header .services-icon-container:before {  
+    content: "";
+    display: inline-block;  
+    position: absolute; top: -6px; left: -6px;  
+    border-radius:50%; height: 70px; width: 70px;
+    border: solid 1px #999;  
+}
+.services article:first-of-type header .services-icon-container i {
+  top: 10px;
+}
+.services article header .services-icon-container i {
+  font-size: 2em;
+  position: relative;
+  top: 7px;
+  color: #999;
+}
+.services article header h2 {
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  top: 1.25em;
+  left: 100px;
+  color: #999;
+}
+.services article p {
+  padding: 0 1em;
+}
+
+/*.contact form {
+  display: table;
+  border-collapse: collapse;
+}*/
+
+.contact {
+  border-bottom: 1px solid #999;
+}
+#contact-form label {
+  display: table-cell;
+}
+#contact-form input[type=submit] {
+  display: block;
+}
+
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
